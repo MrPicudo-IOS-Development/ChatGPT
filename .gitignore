@@ -1,0 +1,45 @@
+# Xcode .gitignore
+
+# Archivos específicos de configuración y workspace de Xcode
+xcuserdata/
+*.xcuserstate
+project.xcworkspace/
+DerivedData/
+*.xcscmblueprint
+
+# Archivo .plist con claves de API
+ChatGPT/API_keys.plist
+
+# Archivos temporales que Xcode podría generar
+*.swp
+*~
+.DS_Store
+
+# Archivos de compilación y paquetes
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Archivos de cobertura de código
+Coverage/
+*.gcno
+*.gcda
+
+# Archivos de soporte de Carthage
+Carthage/Build
+
+# Archivos de soporte de CocoaPods
+Pods/
+
+# Swift Package Manager
+.build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Archivos de configuración de App Store Connect
+*.ipa
+*.pkg
